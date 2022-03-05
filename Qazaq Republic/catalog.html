@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Qazaq Republic</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+
+    <style media="screen">
+      body{background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('img/catal.png');
+      background-size: cover;
+    background-attachment: fixed;
+    }
+    </style>
+
+    <title></title>
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="container">
+       <div class="header__inner">
+         <div class="header__logo"><a href="ican.html" class="text-white"  style="text-decoration: none;">QR</a></div>
+
+         <nav class="nav">
+           <a class="nav__link" href="ican.html#About us">About us</a>
+           <a class="nav__link" href="ican.html#News">News</a>
+           <a class="nav__link" href="catalog.html">Catalog</a>
+           <a class="nav__link" href="ican.html#Contact">Contacts</a>
+           <a class="nav__link" href="signin.html">Order</a>
+         </nav>
+       </div>
+      </div>
+
+
+<h2 class="intro_titl"><strong>NEW HERE?</strong></h2>
+
+
+          <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="img/box1.jpg" style="width:100%">
+            <div class="textc">Sy'lyq al!</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="img/box2.jpg" style="width:100%">
+            <div class="textc">Jaksy' sy'ily'q jurekti g'ana jy'ly'tpaidy'.</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="img/box3.jpg" style="width:100%">
+            <div class="textc"></div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="img/box4.jpg" style="width:100%">
+            <div class="textc"></div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="img/box5.jpg" style="width:100%">
+            <div class="textc"></div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+
+
+
+
+        <!--section catalog-->
+        <section class="section section-catalog">
+          <div class="container">
+            <header class="section__header">
+              <h2 class="section__title section__title--accent">Catalog</h2>
+              <nav class="catalog-nav">
+                <ul class="catalog-nav__wrapper">
+                  <li class="catalog-nav__item">
+                    <button class="catalog-nav__btn is-active" type="button" data-filter="all">All</button>
+                  </li>
+                  <li class="catalog-nav__item">
+                    <button class="catalog-nav__btn" type="button" data-filter="man">Man</button>
+                  </li>
+                  <li class="catalog-nav__item">
+                    <button class="catalog-nav__btn" type="button" data-filter="woman">Woman</button>
+                  </li>
+                  <li class="catalog-nav__item">
+                    <button class="catalog-nav__btn" type="button" data-filter="accessories">Accessories</button>
+                  </li>
+                </ul>
+              </nav >
+            </header>
+
+            <div class="catalog">
+              <div class="catalog__item" data-category="woman">
+                <div class="product catalog__product">
+                  <img src="img/hoodie2.jpg" alt="" class="product__img" height="">
+                  <div class="product__content">
+                    <h3 class="product__title">Hoodie</h3>
+                    <p class="product__description"> We know you don't cut yourself, but make yourself a present for the New Year </p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">19 990</span>
+                        <span class="product__currency">&#8381;</span>
+                      </div>
+                      <button class="btn product__btn" type="button" style="color: white;"><strong>Order</strong></button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="woman">
+                <div class="product catalog__product">
+                  <img src="img/hoodie3.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Hoodie Sa'biz</h3>
+                    <p class="product__description">bestseller. now in a new color. </p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">15 990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="accessories">
+                <div class="product catalog__product">
+                  <img src="img/kese.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Kese</h3>
+                    <p class="product__description">friend can not go to the enemy,The cup went frost.
+
+What proverb is best for our cups?</p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">Orange</button>
+                      <button class="product__size" type="button">Black</button>
+                      <button class="product__size" type="button">White</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">2500</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="man">
+                <div class="product catalog__product">
+                  <img src="img/koilek.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Ko'ilek</h3>
+                    <p class="product__description">It's time to update your wardrobe.
+
+The new collection is on sale in stores. </p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">12 990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="man">
+                <div class="product catalog__product">
+                  <img src="img/jempir.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">J'empir</h3>
+                    <p class="product__description">warm blanket. warm medium. warming up. If you want to be warm, take one with you. we have a new filling</p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">15 990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="woman">
+                <div class="product catalog__product">
+                  <img src="img/kurte2.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Ku'rteshe</h3>
+                    <p class="product__description"> Start February with a fleece jacket. It keeps warm not only the body but also the heart.</p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">25 990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="man">
+                <div class="product catalog__product">
+                  <img src="img/kurte.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Kurte</h3>
+                    <p class="product__description"> The weather cannot be changed, but we can dress you according to the weather </p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">26 990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="accessories">
+                <div class="product catalog__product">
+                  <img src="img/koilek2.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Bas kiy'm</h3>
+                    <p class="product__description">mom / ear / hat</p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">5990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+
+              <div class="catalog__item" data-category="man">
+                <div class="product catalog__product">
+                  <img src="img/shalbar.jpg" alt="" class="product__img">
+                  <div class="product__content">
+                    <h3 class="product__title">Shalbar</h3>
+                    <p class="product__description">The jögger is one of the hottest trouser models today. The waistband has a soft elastic band that allows you to adjust the size as you wish. available in gray and blue.</p>
+                  </div>
+                  <footer class="product__footer">
+                    <div class="product__sizes">
+                      <button class="product__size is-active" type="button">S</button>
+                      <button class="product__size" type="button">M</button>
+                      <button class="product__size" type="button">L</button>
+                    </div>
+                    <div class="product__bottom">
+                      <div class="product__price">
+                        <span class="product__price-value">8990</span>
+                        <span class="product__currency">&#8376;</span>
+                      </div>
+                      <button class="btn product__btn" type="button">Order</button>
+                    </div>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--carousel
+        <div class="container_catalog">
+            <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+
+                          <div class="carousel-item active">
+                            <img src="img/box1.jpg"  class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                              <h1 class="display-2"><strong>Sy'lyq al!</strong></h1>
+                              <h3>Jaksy' sy'ily'q jurekti g'ana jy'ly'tpaidy'.</h3>
+                            </div>
+
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="img/box2.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="img/box3.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="img/box4.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+                          <div class="carousel-item">
+                            <img src="img/box5.jpg" class="d-block w-100" alt="...">
+                          </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                  crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                  crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+                  crossorigin="anonymous"></script>
+
+<script src="catalog.js" charset="utf-8"></script>
+<script src="myLib.js" charset="utf-8"></script>
+  </body>
+</html>
